@@ -1,0 +1,25 @@
+.BgImage {
+  background-image: url("../Images/1.jpeg");
+  opacity: 0.9;
+}
+#Btn {
+  align-self: center;
+  /* margin: 0px;
+  padding: 10px 13px;*/
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  /* font-size: 20px; */
+  border-radius: 0.5em;
+  width: 100%;
+  height: 100%;
+  outline: none;
+}
+
+#Btn:hover,
+#Btn:active {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  box-shadow: 1px 2px 5px 2px grey;
+}
